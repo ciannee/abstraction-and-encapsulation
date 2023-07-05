@@ -7,16 +7,16 @@ class Fan:
 
 # create three constants (slow, medium, fast)
     SLOW = 1
-    MEDIUM = 1
+    MEDIUM = 2
     FAST = 3
 
 # create a constructor (speed, radius, color, switch)
     def __init__(self, speed = SLOW, radius = 5, color = 'blue', switch = False):
     # behavior (instance methods)
-    self.__speed = speed
-    self.__radius = radius
-    self.__color = color
-    self.__switch = switch
+        self.__speed = speed
+        self.__radius = radius
+        self.__color = color
+        self.__switch = switch
 
 # turns on fan
     def turnOn(self):
