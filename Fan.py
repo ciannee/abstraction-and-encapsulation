@@ -16,5 +16,15 @@ class Fan:
     self.__speed = speed
     self.__radius = radius
     self.__color = color
-    self.__switch = on
+    self.__switch = switch
+
+# turns on fan
+    def turnOn(self):
+        self.__switch = True
+
+# turns off fan
+    def turnOff(self):
+        self.__switch = False
+
+
 
