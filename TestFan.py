@@ -10,6 +10,6 @@ class TestFan:
         # second fan
         second_fan = Fan(Fan, MEDIUM, 5, "blue", False)
 
-# print output
-print ("\n")
-print("First Fan: ", first_fan.speed )
+        # print output
+        print ("\n")
+        first_fan = print("\033[36mfirst fan speed is ", first_fan.speed)
