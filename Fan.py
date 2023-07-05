@@ -3,6 +3,7 @@
 # Assignment 9: Abstraction and Encapsulation
 
 # create fan class
+class Fan:
 # create three constants (slow, medium, fast)
 # speed of the fan (private int data)
 # fan switch (on and off) (private bool data)
