@@ -44,4 +44,8 @@ class Fan:
 
 # return color of the fan
     def getColor(self):
-        return self.__color = color
+        return self.__color
+
+# set color of the fan
+    def setColor(self):
+        self.__color = color
