@@ -38,6 +38,9 @@ class Fan:
     def getRadius(self):
         return self.__radius
 
+# set radius of the fan
+    def setRadius(self):
+        self.__radius = radius
 
 # colors of the fan
 
