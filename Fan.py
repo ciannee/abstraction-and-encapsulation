@@ -13,3 +13,7 @@ class Fan:
 # radius of the fan (private float data)
 # color of the fan (private string data)
 
+# create a constructor (speed, radius, color, switch)
+    def __init__(self, speed, radius, color, switch)
+    # behavior (instance methods)
+
