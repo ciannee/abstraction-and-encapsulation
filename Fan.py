@@ -16,4 +16,8 @@ class Fan:
 # create a constructor (speed, radius, color, switch)
     def __init__(self, speed, radius, color, switch)
     # behavior (instance methods)
+    self.__speed = speed
+    self.__radius = radius
+    self.__color = color
+    self.__on = on
 
