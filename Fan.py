@@ -26,5 +26,10 @@ class Fan:
     def turnOff(self):
         self.__switch = False
 
+# return speed of the fan
+    def getSpeed(self):
+        return self.__speed
 
+# radius of the fan
+# colors of the fan
 
