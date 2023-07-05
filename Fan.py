@@ -30,6 +30,10 @@ class Fan:
     def getSpeed(self):
         return self.__speed
 
+# set speed of the fan
+    def setSpeed(self):
+        self.__speed = speed
+
 # radius of the fan
 # colors of the fan
 
