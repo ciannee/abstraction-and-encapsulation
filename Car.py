@@ -9,6 +9,9 @@ class Car:
         self.__year_model = year_model
         self.__make = make
         self.__speed = speed
-# make accelerate method
-# make brake method
-# get speed method
+
+    # make accelerate method
+    def accelerate(self):
+        self.__speed += 5
+    # make brake method
+    # get speed method
