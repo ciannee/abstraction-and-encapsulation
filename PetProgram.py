@@ -1,4 +1,6 @@
 # import pet class from pet file
+from Pet import Pet
+
 # ask user for pet name
 # ask user for pet animal type
 # ask user for pet age
