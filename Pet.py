@@ -3,6 +3,7 @@
 # Assignment 9: Abstraction and Encapsulation
 
 # create pet class
+class Pet:
 # create a constructor
 # set name method
 # set animal type method
