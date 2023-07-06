@@ -11,7 +11,7 @@ class Fan:
     FAST = 3
 
 # create a constructor (speed, radius, color, switch)
-    def __init__(self, speed = SLOW, radius = 5, color = 'blue', switch = False):
+    def __init__(self, speed, radius, color, switch):
     # behavior (instance methods)
         self.__speed = speed
         self.__radius = radius
@@ -21,6 +21,7 @@ class Fan:
 # turns on fan
     def turnOn(self):
         self.__switch = True
+        return self.__switch
 
 # turns off fan
     def turnOff(self):
