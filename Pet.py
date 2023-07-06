@@ -28,4 +28,9 @@ class Pet:
         return self.__name
 
     # get animal type method
+    def get_animal_type(self):
+        return self.__animal_type
+
     # get age method
+    def get_age(self):
+        return self.__age = age
