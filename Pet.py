@@ -20,6 +20,9 @@ class Pet:
         self.__animal_type = animal_type
 
     # set age method
+    def set_age(self):
+        self.__age = age
+        
     # get name method
     # get animal type method
     # get age method
