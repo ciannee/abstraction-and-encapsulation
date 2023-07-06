@@ -11,6 +11,7 @@ pet_animal_type = input ("\n\033[31mWhat is the animal type of your pet? ")
 pet_age = int(input("\n\033[93mWhat is the age of your pet? "))
 
 # create a construction
+pet = Pet(pet_name, pet_animal_type, pet_age)
 
 # create an object
 
