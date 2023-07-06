@@ -11,4 +11,6 @@ for i in range(1,6):
     car_speed = print("\033[01m\033[92mThe Current Speed of the Car is: ", "\n", car.get_speed())
 
 # call brake method five times
+for i in range(1,6):
+    car.brake()
 # get the current speed and display
