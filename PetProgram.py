@@ -8,6 +8,7 @@ pet_name = input("\n\033[92mWhat is the name of your pet? ")
 pet_animal_type = input ("\n\033[31mWhat is the animal type of your pet? ")
 
 # ask user for pet age
+pet_age = int(input("\n\033[93mWhat is the age of your pet? "))
 
 # create a construction
 
