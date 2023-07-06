@@ -8,5 +8,7 @@ car = Car(2023, "Honda Civic Sedan")
 for i in range(1,6):
     car.accelerate()
 # get the current speed and display
+    car_speed = print("\033[01m\033[92mThe Current Speed of the Car is: ", "\n", car.get_speed())
+
 # call brake method five times
 # get the current speed and display
