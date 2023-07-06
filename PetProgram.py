@@ -14,6 +14,7 @@ pet_age = int(input("\n\033[93mWhat is the age of your pet? "))
 pet = Pet(pet_name, pet_animal_type, pet_age)
 
 # create an object
+user_pet = Pet(pet_name, pet_animal_type, pet_age)
 
 # print output
 
