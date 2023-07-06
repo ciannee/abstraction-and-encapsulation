@@ -4,7 +4,13 @@
 
 # create pet class
 class Pet:
+
 # create a constructor
+    def __init__(self, name, animal_type, age):
+        self.__name = name
+        self.__animal_type = animal_type
+        self.__age = age
+
 # set name method
 # set animal type method
 # set age method
